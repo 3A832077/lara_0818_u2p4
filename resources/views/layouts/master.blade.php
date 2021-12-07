@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
 
   <title><title>@yield('title')</title>，</title>
 
@@ -21,10 +13,6 @@
   <!-- Custom styles for this template -->
   <link href="css/clean-blog.min.css" rel="stylesheet">
 
-</head>
-
-<body>
-
   @include('layouts.partials.navigation')
   @yield('content')
   @include('layouts.partials.footer')
@@ -35,7 +23,3 @@
 
   <!-- Custom scripts for this template -->
   <script src="{{asset('js/clean-blog.min.js')}}"></script>
-
-</body>
-
-</html>
